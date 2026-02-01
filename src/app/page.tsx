@@ -7,6 +7,9 @@ import {
   updateSettings,
 } from "@/app/actions";
 
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+
 const formatMoney = (value: number) =>
   new Intl.NumberFormat("fr-FR", {
     style: "currency",
